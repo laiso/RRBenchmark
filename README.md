@@ -1,6 +1,7 @@
 RRBenchmark
 =============
 
+```objc
     [RRBenchmark benchmark:^(RRBRunner* runner){
 
       [runner report:@"NSUUID:UUIDString" context:^{
@@ -22,6 +23,7 @@ RRBenchmark
       }];
 
     } iterations:10000];
+```
 
 ![](Documents/images/console-result.png)
 
@@ -30,12 +32,14 @@ Install
 
 - [CocoaPods: The Objective-C Library Manager](http://cocoapods.org/ "CocoaPods: The Objective-C Library Manager")
 
+```bash
     # My Beta podspec Repository
     pod repo add laiso https://github.com/laiso/Specs.git beta
     # Add Podfile
     # pod 'RRBenchmark'
+    
     pod install
-
+```
 
 Acknowledgements
 =============
