@@ -32,13 +32,8 @@ Install
 
 - [CocoaPods: The Objective-C Library Manager](http://cocoapods.org/ "CocoaPods: The Objective-C Library Manager")
 
-```bash
-    # My Beta podspec Repository
-    pod repo add laiso https://github.com/laiso/Specs.git beta
-    # Add Podfile
-    # pod 'RRBenchmark'
-    
-    pod install
+```ruby
+    pod 'RRBenchmark', :git => 'https://github.com/laiso/RRBenchmark.git'
 ```
 
 Acknowledgements
